@@ -11,7 +11,7 @@ export default function Courses() {
               <div
                 key={index}
                 className="Course grid justify-items-center border mt-5 rounded-3xl bg-white
-               w-64 xl:w-[170px] xl:h-[170px]"
+               w-64 xl:w-[170px] xl:h-[170px] 2xl:h-[190px]"
               >
                 <div className="Icons mt-10 border shadow-2xl px-4 py-3 rounded-full ">
                   <img src={data.icon} alt="" />
