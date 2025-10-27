@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Hero } from "./Components/index";
+import { Navbar, Hero, Courses } from "./Components/index";
 
 export default function App() {
   return (
@@ -9,6 +9,9 @@ export default function App() {
       </div>
       <div>
         <Hero />
+      </div>
+      <div className="bg-[#DFF2FD]">
+        <Courses />
       </div>
     </>
   );
