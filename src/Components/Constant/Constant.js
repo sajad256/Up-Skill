@@ -1,6 +1,7 @@
 import { MdVideoLibrary } from "react-icons/md";
 import { IoTimeOutline } from "react-icons/io5";
 
+
 import {
   js,
   js1,
@@ -11,7 +12,6 @@ import {
   upskill,
   upskill1,
   sajad,
- 
 } from "../../assets/Imges";
 
 export const navLinks = [
@@ -112,7 +112,6 @@ export const whoweAre = [
   },
 ];
 
-
 export const accordionData = [
   {
     title: "What is Upskill Learning Center?",
@@ -133,5 +132,24 @@ export const accordionData = [
     title: "Are the courses free or paid?",
     detail:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
+
+// TalentData.js
+export const talentData = [
+  {
+    id: 1,
+    title: "Said Shah Ahmadi",
+    detail: "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
+  },
+  {
+    id: 2,
+    title: "Said Shah Ahmadi",
+    detail: "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
+  },
+  {
+    id: 3,
+    title: "Said Shah Ahmadi",
+    detail: "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
   },
 ];
