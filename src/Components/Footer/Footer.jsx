@@ -15,8 +15,8 @@ export default function Footer() {
           <div className="lg:flex">
             {footerlinks.map((data) => {
               return (
-                <div className="main-for-info-icon-scanner mx-1 xl:mx-24 pt-3 ">
-                  <div className="info lg:pt-8">
+                <div className="main-for-info-icon-scanner mx-3 md:mx-10 lg:mx-1 xl:mx-24 pt-3  ">
+                  <div className="info lg:pt-8 ">
                     <h1 className="font-semibold md:text-xl md:w-[400px] lg:text-lg">
                       {data.title}
                     </h1>

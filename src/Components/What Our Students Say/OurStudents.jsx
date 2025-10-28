@@ -66,7 +66,7 @@ export default function OurStudents() {
                     </div>
                     <div className="img">
                       <img
-                        className="lg:h-full lg:object-cover lg:object-center"
+                        className="lg:h-full lg:object-cover lg:object-center w-full"
                         src={data.img}
                         alt=""
                       />
