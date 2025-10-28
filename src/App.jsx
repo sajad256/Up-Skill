@@ -5,7 +5,8 @@ import {
   Courses,
   TransformingSkills,
   WhoweAre,
-  Talent
+  Talent,
+  OurStudents,
 } from "./Components/index";
 
 export default function App() {
@@ -28,6 +29,9 @@ export default function App() {
       </div>
       <div>
         <Talent />
+      </div>
+      <div className="bg-[#DFF2FD]">
+        <OurStudents />
       </div>
     </>
   );

@@ -1,7 +1,6 @@
 import { MdVideoLibrary } from "react-icons/md";
 import { IoTimeOutline } from "react-icons/io5";
 
-
 import {
   js,
   js1,
@@ -12,6 +11,9 @@ import {
   upskill,
   upskill1,
   sajad,
+  cottedicon,
+  vector1,
+  studentsSimg,
 } from "../../assets/Imges";
 
 export const navLinks = [
@@ -140,16 +142,69 @@ export const talentData = [
   {
     id: 1,
     title: "Said Shah Ahmadi",
-    detail: "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
+    detail:
+      "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
   },
   {
     id: 2,
     title: "Said Shah Ahmadi",
-    detail: "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
+    detail:
+      "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
   },
   {
     id: 3,
     title: "Said Shah Ahmadi",
-    detail: "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
+    detail:
+      "Upskill Learning Center helped me gain real skills in technology and build my confidence for the future",
+  },
+];
+
+// What our students say
+
+export const studentsComment = [
+  {
+    cottedIcon: cottedicon,
+    vectorIcon: vector1,
+    name: "David Miller",
+    job: "Busy Professional",
+    comment:
+      "UltraClear is a lifesaver! My busy schedule doesn't leave time for cleaning, but their reliable service keeps my apartment sparkling. the cleaners are professional and trustworthy, and booking online is a breeze.",
+    img: studentsSimg,
+  },
+  {
+    cottedIcon: cottedicon,
+    vectorIcon: vector1,
+    name: "David Miller",
+    job: "Busy Professional",
+    comment:
+      "UltraClear is a lifesaver! My busy schedule doesn't leave time for cleaning, but their reliable service keeps my apartment sparkling. the cleaners are professional and trustworthy, and booking online is a breeze.",
+    img: studentsSimg,
+  },
+  {
+    cottedIcon: cottedicon,
+    vectorIcon: vector1,
+    name: "David Miller",
+    job: "Busy Professional",
+    comment:
+      "UltraClear is a lifesaver! My busy schedule doesn't leave time for cleaning, but their reliable service keeps my apartment sparkling. the cleaners are professional and trustworthy, and booking online is a breeze.",
+    img: studentsSimg,
+  },
+  {
+    cottedIcon: cottedicon,
+    vectorIcon: vector1,
+    name: "David Miller",
+    job: "Busy Professional",
+    comment:
+      "UltraClear is a lifesaver! My busy schedule doesn't leave time for cleaning, but their reliable service keeps my apartment sparkling. the cleaners are professional and trustworthy, and booking online is a breeze.",
+    img: studentsSimg,
+  },
+  {
+    cottedIcon: cottedicon,
+    vectorIcon: vector1,
+    name: "David Miller",
+    job: "Busy Professional",
+    comment:
+      "UltraClear is a lifesaver! My busy schedule doesn't leave time for cleaning, but their reliable service keeps my apartment sparkling. the cleaners are professional and trustworthy, and booking online is a breeze.",
+    img: studentsSimg,
   },
 ];

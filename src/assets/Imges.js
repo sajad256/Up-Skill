@@ -8,6 +8,9 @@ import ai from "./ai.png";
 import upskill from "./upskill.jpg";
 import upskill1 from "./upskill-1.jpg";
 import sajad from "./sajad.JPG";
+import cottedicon from "./Cottedicon.png";
+import vector1 from "./Vector1.png";
+import studentsSimg from "./students-s-img.png";
 
 export {
   logo,
@@ -20,5 +23,7 @@ export {
   upskill,
   sajad,
   upskill1,
-  
+  cottedicon,
+  vector1,
+  studentsSimg,
 };
