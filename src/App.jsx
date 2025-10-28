@@ -7,6 +7,7 @@ import {
   WhoweAre,
   Talent,
   OurStudents,
+  DontWait,
 } from "./Components/index";
 
 export default function App() {
@@ -32,6 +33,9 @@ export default function App() {
       </div>
       <div className="bg-[#DFF2FD]">
         <OurStudents />
+      </div>
+      <div>
+        <DontWait />
       </div>
     </>
   );

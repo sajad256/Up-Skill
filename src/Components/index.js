@@ -5,6 +5,7 @@ import TransformingSkills from "./Transforming Skills for Tomorrow's Challenges/
 import WhoweAre from "./Who We Are/WhoweAre";
 import Talent from "./We Bring Expertise and Guidance for Talent/Talent";
 import OurStudents from "./What Our Students Say/OurStudents";
+import DontWait from "./Don't Wait/DontWait";
 
 export {
   Navbar,
@@ -14,4 +15,5 @@ export {
   WhoweAre,
   Talent,
   OurStudents,
+  DontWait,
 };

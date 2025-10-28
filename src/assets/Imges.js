@@ -11,6 +11,7 @@ import sajad from "./sajad.JPG";
 import cottedicon from "./Cottedicon.png";
 import vector1 from "./Vector1.png";
 import studentsSimg from "./students-s-img.png";
+import vector4 from "./vector4.png";
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   cottedicon,
   vector1,
   studentsSimg,
+  vector4,
 };
