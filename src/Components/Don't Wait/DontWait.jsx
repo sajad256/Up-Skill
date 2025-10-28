@@ -7,7 +7,7 @@ export default function DontWait() {
       <section className="mt-10">
         <div className="for-big-screen ">
           <div className="Main container lg:flex lg:justify-center">
-            <div className="second bg-[#35AEF6] rounded-xl md:flex md:justify-between lg:w-[800px] xl:w-[900px]">
+            <div className="second bg-[linear-gradient(90deg,rgba(25,163,245,1)_15%,rgba(44,171,246,1)_77%)] rounded-xl md:flex md:justify-between lg:w-[800px] xl:w-[900px]">
               <div className="Main-info ">
                 <div className="info container">
                   <h1 className="pt-4 font-semibold text-white md:text-lg md:mt-3">

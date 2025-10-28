@@ -10,7 +10,7 @@ import {
 export default function Footer() {
   return (
     <>
-      <footer className="mt-20 bg-[#DFF2FD] ">
+      <footer className="mt-20 bg-[linear-gradient(170deg,rgba(249,254,251,1)_0%,rgba(217,240,253,1)_96%)]">
         <div className="Main-for-all-for-flex 2xl:flex 2xl:justify-center">
           <div className="lg:flex">
             {footerlinks.map((data) => {
