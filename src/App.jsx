@@ -8,6 +8,7 @@ import {
   Talent,
   OurStudents,
   DontWait,
+  Footer,
 } from "./Components/index";
 
 export default function App() {
@@ -36,6 +37,9 @@ export default function App() {
       </div>
       <div>
         <DontWait />
+      </div>
+      <div >
+        <Footer />
       </div>
     </>
   );

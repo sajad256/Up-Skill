@@ -6,6 +6,7 @@ import WhoweAre from "./Who We Are/WhoweAre";
 import Talent from "./We Bring Expertise and Guidance for Talent/Talent";
 import OurStudents from "./What Our Students Say/OurStudents";
 import DontWait from "./Don't Wait/DontWait";
+import Footer from "./Footer/Footer";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Talent,
   OurStudents,
   DontWait,
+  Footer,
 };

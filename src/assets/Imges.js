@@ -12,6 +12,12 @@ import cottedicon from "./Cottedicon.png";
 import vector1 from "./Vector1.png";
 import studentsSimg from "./students-s-img.png";
 import vector4 from "./vector4.png";
+import facebook from "./facebook.png";
+import linkedin from "./linkedin.png";
+import instagram from "./instagram.png";
+import scanner from "./Scan QR.png";
+import location from "./location.png";
+import phone from "./phone.png";
 
 export {
   logo,
@@ -28,4 +34,10 @@ export {
   vector1,
   studentsSimg,
   vector4,
+  facebook,
+  linkedin,
+  instagram,
+  scanner,
+  location,
+  phone,
 };

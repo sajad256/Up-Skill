@@ -14,6 +14,12 @@ import {
   cottedicon,
   vector1,
   studentsSimg,
+  facebook,
+  linkedin,
+  instagram,
+  scanner,
+  location,
+  phone,
 } from "../../assets/Imges";
 
 export const navLinks = [
@@ -206,5 +212,60 @@ export const studentsComment = [
     comment:
       "UltraClear is a lifesaver! My busy schedule doesn't leave time for cleaning, but their reliable service keeps my apartment sparkling. the cleaners are professional and trustworthy, and booking online is a breeze.",
     img: studentsSimg,
+  },
+];
+
+export const footerlinks = [
+  {
+    title: "Empowering Afghan Youth with Skills for a Digital Future",
+    facebookIcon: facebook,
+    LinkedinIcon: linkedin,
+    Instagram: instagram,
+    Scanner: scanner,
+  },
+];
+
+export const Services = [
+  {
+    title: "Services",
+    cleaning: "Cleaning checklist",
+    house: "House cleaning",
+    apartment: "Apartments",
+    commercial: "Commercial",
+    springcenter: "Spring center",
+    partnership: "Partnerships",
+  },
+];
+
+export const HelpfullLinks = [
+  {
+    title: "Helpfull Links",
+    aboutus: "About us",
+    aries: "Aries we serve",
+    workwithus: "Work with us",
+    reviews: "Reviews",
+    contact: "Contact",
+    partnership: "Partnerships",
+  },
+];
+
+export const Information = [
+  {
+    title: "Information",
+    blog: "Blog",
+    help: "Help",
+    reviews: "Reviews",
+    job: "Job application",
+    aboutus: "About us",
+  },
+];
+
+export const Location = [
+  {
+    title: "Locations",
+    locationIcon: location,
+    location: "Karta Char, 3rd Division Opposite Street, Sun Tower Plaza",
+    phoneIcon: phone,
+    phone: "076500185",
   },
 ];

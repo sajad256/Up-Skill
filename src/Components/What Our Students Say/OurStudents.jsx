@@ -77,7 +77,7 @@ export default function OurStudents() {
             </Swiper>
 
             {/* Arrows (bottom-right, outside cards) */}
-            <div className="flex justify-end gap-3 mt-2">
+            <div className="flex justify-end gap-3 mt-2 pb-3">
               <button
                 onClick={() => swiperRef.current?.slidePrev()}
                 className="p-2 bg-[#3EB2F7] text-white rounded-full"
