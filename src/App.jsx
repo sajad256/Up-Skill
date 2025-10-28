@@ -1,5 +1,11 @@
 import React from "react";
-import { Navbar, Hero, Courses, TransformingSkills } from "./Components/index";
+import {
+  Navbar,
+  Hero,
+  Courses,
+  TransformingSkills,
+  WhoweAre,
+} from "./Components/index";
 
 export default function App() {
   return (
@@ -15,6 +21,9 @@ export default function App() {
       </div>
       <div className="bg-[#DFF2FD] xl:h-[720px] 2xl:h-[750px]">
         <TransformingSkills />
+      </div>
+      <div className="bg-[#DFF2FD]">
+        <WhoweAre />
       </div>
     </>
   );

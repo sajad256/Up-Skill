@@ -9,4 +9,16 @@ import upskill from "./upskill.jpg";
 import upskill1 from "./upskill-1.jpg";
 import sajad from "./sajad.JPG";
 
-export { logo, js, js1, graphic, ui, accouting, ai, upskill, sajad, upskill1 };
+export {
+  logo,
+  js,
+  js1,
+  graphic,
+  ui,
+  accouting,
+  ai,
+  upskill,
+  sajad,
+  upskill1,
+  
+};
