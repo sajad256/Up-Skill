@@ -4,7 +4,7 @@ import { courses } from "../Constant/Constant";
 export default function Courses() {
   return (
     <section>
-      <div className="Main-for-courses">
+      <div className="Main-for-courses pb-3">
         <div className="flex justify-center">
           <div className="second grid justify-items-center xl:mx-10 pt-20 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
             {courses.map((data, index) => (

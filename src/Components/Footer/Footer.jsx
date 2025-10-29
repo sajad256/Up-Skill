@@ -109,7 +109,7 @@ export default function Footer() {
                         </div>
                         <div className="location flex items-center gap-2">
                           <img src={data.locationIcon} alt="" />
-                          <h1 className="mt-1 font-medium text-sm border md:w-[140px]">
+                          <h1 className="mt-1 font-medium text-sm md:w-[140px]">
                             {data.location}
                           </h1>
                         </div>

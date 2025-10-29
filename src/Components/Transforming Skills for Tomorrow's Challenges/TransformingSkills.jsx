@@ -10,7 +10,7 @@ export default function TransformingSkills() {
   const swiperRef = useRef(null);
 
   return (
-    <section className="pt-32">
+    <section className="pt-32 pb-3">
       <div className="info flex justify-center">
         <h1 className="font-bold text-center text-3xl md:w-[500px] lg:text-4xl lg:w-[600px] xl:w-[800px]">
           Transforming Skills for Tomorrow's Challenges
@@ -111,10 +111,10 @@ export default function TransformingSkills() {
         </div>
       </div>
       <div className="btn flex justify-center">
-        <button className="text-white bg-[#1097E8] px-4 py-2 rounded-full">More Courses</button>
+        <button className="text-white bg-[#1097E8] px-4 py-2 rounded-full">
+          More Courses
+        </button>
       </div>
     </section>
   );
 }
-
-
