@@ -18,6 +18,7 @@ import instagram from "./instagram.png";
 import scanner from "./Scan QR.png";
 import location from "./location.png";
 import phone from "./phone.png";
+import invitedcoma from "./Invited coma.png";
 
 export {
   logo,
@@ -40,4 +41,5 @@ export {
   scanner,
   location,
   phone,
+  invitedcoma,
 };

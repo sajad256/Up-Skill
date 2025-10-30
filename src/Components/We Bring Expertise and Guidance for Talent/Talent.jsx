@@ -35,7 +35,12 @@ export default function Talent() {
                   </h2>
                   <p className="text-sm mt-2 text-gray-200">{data.detail}</p>
                 </div>
-                <CgArrowTopRight className="text-white text-xl mt-1" />
+              </div>
+              <div className="icon">
+                <CgArrowTopRight
+                  size={30}
+                  className="border rounded-full text-white px-2 py-2 text-xl mt-4"
+                />
               </div>
             </div>
           </div>

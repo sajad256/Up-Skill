@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { transformingSkill } from "../Constant/Constant";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules"; // ✅ correct import for v11+
 import "swiper/css";
 import "swiper/css/navigation";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
@@ -20,20 +20,22 @@ export default function TransformingSkills() {
       <div className="relative w-full mt-10 container">
         <div className="w-full max-w-screen-xl mx-auto">
           <Swiper
-            modules={[Navigation]}
+            modules={[Navigation, Autoplay]} // ✅ use Autoplay here
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             slidesPerView={1}
-            slidesPerGroup={1}
             spaceBetween={20}
-            loop={true} // enable loop
-            loopFillGroupWithBlank={true} // ensures XL works even if slides < slidesPerView
+            loop={true}
             allowTouchMove={true}
-            breakpoints={{
-              768: { slidesPerView: 2, slidesPerGroup: 1 },
-              1024: { slidesPerView: 3, slidesPerGroup: 1 },
-              1280: { slidesPerView: 4, slidesPerGroup: 1 },
+            speed={1100}
+            autoplay={{
+              delay: 2000, // 2 sec
+              disableOnInteraction: false,
             }}
-            className="second"
+            breakpoints={{
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+              1280: { slidesPerView: 4 },
+            }}
           >
             {transformingSkill.map((data, index) => (
               <SwiperSlide key={index}>
@@ -73,43 +75,37 @@ export default function TransformingSkills() {
           </Swiper>
         </div>
 
-        {/* Mobile / MD / LG arrows */}
         <div className="flex justify-end mt-4 gap-2 xl:hidden">
           <button
-            onClick={() => swiperRef.current && swiperRef.current.slidePrev()}
-            className="text-gray-600 hover:text-gray-800 bg-white rounded-full p-1"
-            aria-label="prev"
+            onClick={() => swiperRef.current?.slidePrev()}
+            className="text-gray-600 bg-white rounded-full p-1"
           >
             <MdKeyboardArrowLeft size={30} />
           </button>
           <button
-            onClick={() => swiperRef.current && swiperRef.current.slideNext()}
-            className="text-gray-600 hover:text-gray-800 bg-white rounded-full p-1"
-            aria-label="next"
+            onClick={() => swiperRef.current?.slideNext()}
+            className="text-gray-600 bg-white rounded-full p-1"
           >
             <MdKeyboardArrowRight size={30} />
           </button>
         </div>
 
-        {/* XL and above arrows: centered below slider */}
         <div className="hidden xl:flex justify-end 2xl:pe-32 gap-4 mt-6">
           <button
-            onClick={() => swiperRef.current && swiperRef.current.slidePrev()}
-            className="text-gray-600 hover:text-gray-800 bg-white rounded-full shadow p-2"
-            aria-label="prev-xl"
+            onClick={() => swiperRef.current?.slidePrev()}
+            className="text-gray-600 bg-white rounded-full shadow p-2"
           >
             <MdKeyboardArrowLeft size={30} />
           </button>
-
           <button
-            onClick={() => swiperRef.current && swiperRef.current.slideNext()}
-            className="text-gray-600 hover:text-gray-800 bg-white rounded-full shadow p-2"
-            aria-label="next-xl"
+            onClick={() => swiperRef.current?.slideNext()}
+            className="text-gray-600 bg-white rounded-full shadow p-2"
           >
             <MdKeyboardArrowRight size={30} />
           </button>
         </div>
       </div>
+
       <div className="btn flex justify-center">
         <button className="text-white bg-[#1097E8] px-4 py-2 rounded-full">
           More Courses

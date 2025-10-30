@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { whoweAre, accordionData } from "../Constant/Constant";
-
+import { invitedcoma } from "../../assets/Imges";
 import { FaPlus, FaMinus } from "react-icons/fa";
 
 export default function WhoweAre() {
@@ -15,14 +15,23 @@ export default function WhoweAre() {
         <section className="py-10 lg:flex">
           <div className="container mx-auto px-4">
             {/* Background Image with Info */}
+            <div className="relative top-[230px] md:top-[310px] z-50 container">
+              <img
+                className="px-2 py-3  bg-white rounded-full"
+                src={invitedcoma}
+                alt=""
+              />
+            </div>
             <div className="Saidshah relative bg-cover bg-center bg-no-repeat bg-[url('/saidshah.png')] h-[400px] md:h-[500px] rounded-xl flex items-end pb-2">
               <div className="info-of-saidshah w-full bg-white/90 md:w-[300px] backdrop-blur-sm p-4 rounded-xl shadow-lg mx-2">
                 {whoweAre.map((data, index) => (
-                  <div key={index} className="text-center md:text-left">
-                    <h1 className="text-lg font-bold">{data.name}</h1>
-                    <h2 className="text-sm text-gray-600">{data.job}</h2>
-                    <p className="text-xs md:text-sm mt-2">{data.detail}</p>
-                  </div>
+                  <>
+                    <div key={index} className="text-center md:text-left">
+                      <h1 className="text-lg font-bold">{data.name}</h1>
+                      <h2 className="text-sm text-gray-600">{data.job}</h2>
+                      <p className="text-xs md:text-sm mt-2">{data.detail}</p>
+                    </div>
+                  </>
                 ))}
               </div>
             </div>
